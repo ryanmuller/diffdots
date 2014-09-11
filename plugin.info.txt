@@ -1,0 +1,7 @@
+base   diffdots
+author Ryan Muller
+email  cognitionmachine@gmail.com
+date   2014-07-05
+name   Diffdots
+desc   Visualize weekly changes
+url    http://github.com/ryanmuller/rewiki
