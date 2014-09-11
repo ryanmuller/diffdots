@@ -51,8 +51,6 @@ if __FILE__ == $0
   a_week = 60*60*24*6
   first_day = Time.at(Time.now.to_i - a_week).wday
   weekdays = %w[M T W T F S S]
-  
-  puts "running"
 
   label_row = "<tfoot><td></td>" + (0..6).map { |i| "<th>#{weekdays[(first_day+i)%7]}</th>" }.join("") + "</tfoot>"
   data_rows = Dir.glob("#{ATTIC}/*.gz")
